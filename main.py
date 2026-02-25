@@ -9,8 +9,8 @@ load_dotenv()
 app = FastAPI()
 
 # ── Load from .env ──────────────────────────────────────────────
-ACCESS_TOKEN     = os.getenv("ACCESS_TOKEN", "EAAU4n6sTZBO0BQ8kTDhveEam7Fv6Fe5noPlNul7EMvhqejwScgQqBHqr3sxw72scr7b4zlau3OxiZCT0RQD89G4KxlRJYMKYFUJ9QfYxGTxz7ZAx7rj2l7UfZBfB1Ga1AO3SVtAtq4FG7hOa4LcwxLKDoSrpJ8mXZChQZC1g07FYQPjZATZBFiNZBLhyyk6vARkqTdgZDZD")
-PHONE_NUMBER_ID  = os.getenv("PHONE_NUMBER_ID", "1013896741811634")
+ACCESS_TOKEN     = os.getenv("ACCESS_TOKEN")
+PHONE_NUMBER_ID  = os.getenv("PHONE_NUMBER_ID")
 VERIFY_TOKEN     = os.getenv("VERIFY_TOKEN", "fastpeer123")
 API_VERSION      = os.getenv("API_VERSION", "v22.0")
 
